@@ -79,12 +79,8 @@ namespace RRTM
             }
             else
             {
-
                 nearestGuess(RandomPoint, t.Right, (currentDimension + 1) % t.Value.State_.Dimensions.Length);//t.Value.State_.Dimensions.Length
-
             }
-            
-        
 
             if (Math.Abs(RandomPoint.Dimensions[currentDimension] - t.Value.State_.Dimensions[currentDimension]) < bestDistance)
             {
